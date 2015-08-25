@@ -1,5 +1,5 @@
 function Series(input){
-	this.digits = input.split("").map(function(t){return parseInt(t)});;
+	this.digits = input.split("").map(function(t){return parseInt(t)});
 }
 
 Series.prototype.slices = function(size){
